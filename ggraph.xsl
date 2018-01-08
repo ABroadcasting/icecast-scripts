@@ -1,6 +1,6 @@
 <!--By MechanisM (http://radiotalk.ru/viewtopic.php?id=3264) -->
 <head>
-<script src="https://www.google.com/jsapi"></script>
+<script src="https://www.google.com/jsapi" />
 <script>google.load('visualization', '1', {packages: ['gauge']});
 function drawVisualization() {
 var data = new google.visualization.DataTable();
@@ -17,5 +17,5 @@ draw(data, gaugeOptions);
 google.setOnLoadCallback(drawVisualization);</script>
 </head>
 <body>
-<div id="visualization" style="width:600px; height:200px;"></div>
+<div id="visualization" style="width:600px; height:200px;" />
 </body>
