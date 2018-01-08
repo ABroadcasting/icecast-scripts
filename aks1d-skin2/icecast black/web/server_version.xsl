@@ -1,3 +1,8 @@
+<!--
+  Russian translation by Aks1d <http://www.aks1d.ru>
+  All about Icecast Radiotalk <http://radiotalk.ru>
+  All rights reserved.
+ -->
 <xsl:stylesheet xmlns:xsl = "http://www.w3.org/1999/XSL/Transform" version = "1.0" >
 <xsl:output omit-xml-declaration="no" method="html" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" indent="yes" encoding="UTF-8" />
 <xsl:template match = "/icestats" >
@@ -51,14 +56,6 @@
 	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/download.php">Icecast.org</a></td>
 </tr>
 <tr>
-	<td width="130">Русификация:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://aks1d.ru">Aks1d.ru</a></td>
-</tr>
-<tr>
-	<td width="130">Всё о IceCast:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://radiotalk.ru/">RadioTalk</a></td>
-</tr>
-<tr>
 	<td width="130">Субверсия:</td>
 	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/svn.php">перейти</a></td>
 </tr>
@@ -80,7 +77,7 @@
 <br />
 <br />
 
-<div class="poster">Поддержка развития: <a class="nav" target="_blank" href="http://www.icecast.org">www.icecast.org</a> Русификация от: <a class="nav" target="_blank" href="http://www.aks1d.ru">Aks1d</a></div>
+<div class="poster">Поддержка развития: <a class="nav" target="_blank" href="http://icecast.org">www.icecast.org</a></div>
 </body>
 </html>
 </xsl:template>

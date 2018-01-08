@@ -1,3 +1,8 @@
+<!--
+  Russian translation by Aks1d <http://www.aks1d.ru>
+  All about Icecast Radiotalk <http://radiotalk.ru>
+  All rights reserved.
+ -->
 <xsl:stylesheet xmlns:xsl = "http://www.w3.org/1999/XSL/Transform" version = "1.0" >
 <xsl:output omit-xml-declaration="no" method="html" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" indent="yes" encoding="UTF-8" />
 <xsl:template match = "/iceresponse" >
@@ -36,12 +41,9 @@
 				<div class="footerWrap">
 					<div class="footbor"><div class="footcont" style="border-top: 1px solid #1a1a1a; padding: 7px 0;"><div class="wrapdiz">
 					<div style="float: right; display: block;" id="dasd531">
-					<a class="gtop" href="#" onclick="javascript:scroll(0,0)" ><span id="scrlBtn" style="background-image: url(/arrow_top.png); padding-left: 24px;">Подняться вверх</span></a>
+					<a class="gtop" href="#" onclick="javascript:scroll(0,0)" ><span id="scrlBtn" style="background-image: url(/arrow_top.png); padding-left: 24px;">Наверх</span></a>
 					</div>
-					Поддержка развития: <a style="color: #A5A5A5;" target="_blank" href="http://www.icecast.org">www.icecast.org</a> 
-					<span style="border-left: 1px solid #252525; border-right: 1px solid #4d4d4d; margin: 0 7px;" class="rad2"></span>
-					Русификация от: <a style="color: #A5A5A5;" target="_blank" href="http://www.aks1d.ru">Aks1d</a>
-					<span style="border-left: 1px solid #252525; border-right: 1px solid #4d4d4d; margin: 0 7px;" class="rad2"></span>
+					Поддержка развития: <a style="color: #A5A5A5;" target="_blank" href="http://icecast.org">www.icecast.org</a>
 					</div></div></div>
 				</div>
 				

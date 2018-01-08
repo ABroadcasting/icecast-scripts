@@ -50,7 +50,7 @@
 </td>
 <td width="25"></td></tr>
 </table>
-<div class="poster">Support icecast development at <a class="nav" target="_blank" href="http://www.icecast.org">www.icecast.org</a></div>
+<div class="poster">Support icecast development at <a class="nav" target="_blank" href="http://icecast.org">www.icecast.org</a></div>
 </body>
 </html>
 </xsl:template>
