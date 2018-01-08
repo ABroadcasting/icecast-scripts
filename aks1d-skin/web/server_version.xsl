@@ -34,51 +34,43 @@
 <h3>Информация о сервере</h3>
 <table border="0" cellpadding="4">
 <xsl:for-each select="/icestats">
-<tr>
-	<td width="130">Расположение:</td>
-	<td class="streamdata"><xsl:value-of select="location" /></td>
-</tr>
-<tr>
-	<td width="130">Администратор:</td>
-	<td class="streamdata"><xsl:value-of select="admin" /></td>
-</tr>
-<tr>
-    <td width="130">Хостинг:</td>
-    <td class="streamdata"><xsl:value-of select="host" /></td>
-</tr>
-<tr>
-    <td width="130">Версия:</td>
-    <td class="streamdata"><xsl:value-of select="server_id" /></td>
-</tr>
+	<tr>
+		<td width="130">Расположение:</td>
+		<td class="streamdata"><xsl:value-of select="location" /></td>
+	</tr>
+	<tr>
+		<td width="130">Администратор:</td>
+		<td class="streamdata"><xsl:value-of select="admin" /></td>
+	</tr>
+	<tr>
+		<td width="130">Хостинг:</td>
+		<td class="streamdata"><xsl:value-of select="host" /></td>
+	</tr>
+	<tr>
+		<td width="130">Версия:</td>
+		<td class="streamdata"><xsl:value-of select="server_id" /></td>
+	</tr>
 </xsl:for-each>
-<tr>
-	<td width="130">Скачать:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/download.php">Icecast.org</a></td>
-</tr>
-<tr>
-	<td width="130">Русификация:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://aks1d.ru">Aks1d.ru</a></td>
-</tr>
-<tr>
-	<td width="130">Всё о IceCast:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://radiotalk.ru/">RadioTalk</a></td>
-</tr>
-<tr>
-	<td width="130">Субверсия:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/svn.php">перейти</a></td>
-</tr>
-<tr>
-	<td width="130">Документация:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/docs.php">перейти</a></td>
-</tr>
-<tr>
-	<td width="130">Все станции:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://dir.xiph.org/index.php">dir.xiph.org</a></td>
-</tr>
-<tr>
-	<td width="130">Сообщество</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://forum.icecast.org/">forum.icecast.org</a></td>
-</tr>
+	<tr>
+		<td width="130">Скачать:</td>
+		<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/download/">Icecast.org</a></td>
+	</tr>
+	<tr>
+		<td width="130">Разработка:</td>
+		<td class="streamdata"><a class="nav" target="_blank" href="https://gitlab.xiph.org/xiph/icecast-server">GitLab</a></td>
+	</tr>
+	<tr>
+		<td width="130">Документация:</td>
+		<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/docs/">перейти</a></td>
+	</tr>
+	<tr>
+		<td width="130">Все станции:</td>
+		<td class="streamdata"><a class="nav" target="_blank" href="http://dir.xiph.org">dir.xiph.org</a></td>
+	</tr>
+	<tr>
+		<td width="130">Сообщество</td>
+		<td class="streamdata"><a class="nav" target="_blank" href="https://icecast.org/contact/">Контакты</a></td>
+	</tr>
 </table>
 </div>
 </div>
@@ -87,7 +79,7 @@
 				<div class="footerWrap">
 					<div class="footbor"><div class="footcont" style="border-top: 1px solid #1a1a1a; padding: 7px 0;"><div class="wrapdiz">
 					<div style="float: right; display: block;" id="dasd531">
-					<a class="gtop" href="#" onclick="javascript:scroll(0,0)" ><span id="scrlBtn" style="background-image: url(http://usite.su/img/new/tr/arrow_top.png); padding-left: 24px;">Подняться вверх</span></a>
+					<a class="gtop" href="#" onclick="javascript:scroll(0,0)" ><span id="scrlBtn" style="background-image: url(arrow_top.png); padding-left: 24px;">Наверх</span></a>
 					</div>
 					Поддержка развития: <a style="color: #A5A5A5;" target="_blank" href="http://icecast.org">www.icecast.org</a>
 					</div></div></div>

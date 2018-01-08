@@ -48,31 +48,23 @@
 </xsl:for-each>
 <tr>
 	<td width="130">Скачать:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/download.php">Icecast.org</a></td>
+	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/download/">Icecast.org</a></td>
 </tr>
 <tr>
-	<td width="130">Русификация:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://aks1d.ru">Aks1d.ru</a></td>
-</tr>
-<tr>
-	<td width="130">Всё о IceCast:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://radiotalk.ru/">RadioTalk</a></td>
-</tr>
-<tr>
-	<td width="130">Субверсия:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/svn.php">перейти</a></td>
+	<td width="130">Разработка:</td>
+	<td class="streamdata"><a class="nav" target="_blank" href="https://gitlab.xiph.org/xiph/icecast-server">GitLab</a></td>
 </tr>
 <tr>
 	<td width="130">Документация:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/docs.php">перейти</a></td>
+	<td class="streamdata"><a class="nav" target="_blank" href="http://icecast.org/docs/">перейти</a></td>
 </tr>
 <tr>
 	<td width="130">Все станции:</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://dir.xiph.org/index.php">dir.xiph.org</a></td>
+	<td class="streamdata"><a class="nav" target="_blank" href="http://dir.xiph.org">dir.xiph.org</a></td>
 </tr>
 <tr>
 	<td width="130">Сообщество</td>
-	<td class="streamdata"><a class="nav" target="_blank" href="http://forum.icecast.org/">forum.icecast.org</a></td>
+	<td class="streamdata"><a class="nav" target="_blank" href="https://icecast.org/contact/">Контакты</a></td>
 </tr>
 </table>
 </div>
@@ -80,7 +72,7 @@
 <br />
 <br />
 
-<div class="poster">Поддержка развития: <a class="nav" target="_blank" href="http://www.icecast.org">www.icecast.org</a> Русификация от: <a class="nav" target="_blank" href="http://www.aks1d.ru">Aks1d</a></div>
+<div class="poster">Поддержка развития: <a class="nav" target="_blank" href="http://www.icecast.org">www.icecast.org</a></div>
 </body>
 </html>
 </xsl:template>
