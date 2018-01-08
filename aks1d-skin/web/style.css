@@ -33,6 +33,14 @@ body {
 
 body, td {font-family: Cuprum, "Segoe UI", tahoma, sans-serif;}
 
+#visualization
+{
+    width:400px;
+    height:120px;
+    float:right;
+    z-index:2;
+}
+
 .xiphnav {
 	font-weight: normal;
 	padding:    .25em;

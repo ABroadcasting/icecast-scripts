@@ -27,7 +27,7 @@
         google.setOnLoadCallback(drawVisualization);</script>
 </head>
 <body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
-    <div id="visualization" style="width:400px; height:120px; float:right; z-index:2;" />
+    <div id="visualization" />
 <h2>Статус сервера</h2>
 <br />
 <!--index header menu -->
